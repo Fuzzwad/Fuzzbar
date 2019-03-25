@@ -1,6 +1,6 @@
 # Fuzzbar
 
-Fuzzbar is a hecking taskbar in rainmeter, built to completely replace the stock windows taskbar. It's built entirely off Mr. Ashtefere's (jonseppanen) skeleton. As of right now it's still pretty much a skeleton. But stuff is getting added, I swear.
+Fuzzbar is a hecking taskbar in rainmeter, made to entirely replace the stock windows taskbar. It's built entirely off Mr. Ashtefere's (jonseppanen) skeleton. As of right now it's still pretty much a skeleton. But stuff is getting added, I swear.
 
 ### Let me tell you it's features!
 
