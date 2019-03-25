@@ -1,7 +1,6 @@
-# RainTaskbar
+# Fuzzbar
 
-RainTaskbar is exactly what it sounds like. It's a god damned taskbar for rainmeter.
-Well, it's a skeleton of one. I built this repo so you can make your own taskbar rainmeter skins.
+Fuzzbar is a hecking taskbar in rainmeter, built to completely replace the stock windows taskbar. It's built entirely off Mr. Ashtefere's (jonseppanen) skeleton. As of right now it's still pretty much a skeleton. But stuff is getting added, I swear.
 
 ### Let me tell you it's features!
 
@@ -14,7 +13,7 @@ Well, it's a skeleton of one. I built this repo so you can make your own taskbar
 
 ### Coming features
 
- - Systray (have the code, just need to throw it in)
+ - Systray (Temporarily removed as of now)
  - Right Click function
  - Middle Click function
 
