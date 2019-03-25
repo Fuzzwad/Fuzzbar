@@ -14,8 +14,4 @@ Fuzzbar is a hecking taskbar in rainmeter, made to entirely replace the stock wi
 ### Coming features
 
  - Systray (Temporarily removed as of now)
- - Right Click function
- - Middle Click function
-
-Take a look at how this demo skin is built to understand what's going on.
-Any bugs, hit me up on github.
+ - A SysInfo area where you can slip between CPU/GPU usages, Time/Date, Current song, and some other stuff I haven't thought of yet.
