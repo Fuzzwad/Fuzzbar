@@ -14,4 +14,4 @@ Fuzzbar is a hecking taskbar in rainmeter, made to entirely replace the stock wi
 ### Coming features
 
  - Systray (Temporarily removed as of now)
- - A SysInfo area where you can slip between CPU/GPU usages, Time/Date, Current song, and some other stuff I haven't thought of yet.
+ - A SysInfo area where you can flip between CPU/GPU usages, Time/Date, Current song, and some other stuff I haven't thought of yet.
