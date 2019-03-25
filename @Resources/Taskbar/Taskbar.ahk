@@ -9,10 +9,21 @@ OnMessage(16666, "taskSwitch")
 OnMessage(16667, "openStart")
 OnMessage(16668, "replacetaskbar")
 OnMessage(16669, "ExitFunc")
+OnMessage(16670, "ShowDesktop")
+OnMessage(16671, "UnShowDesktop")
 OnExit("ExitFunc")
 iconCacheDir := EnvGet("USERPROFILE") "\Documents\raintaskbar\"
 if(!FileExist(iconCacheDir)){
     DirCreate iconCacheDir
+	
+}
+
+ShowDesktop(){
+    WinMinimizeAll
+}
+
+UnShowDesktop(){
+    WinMinimizeAllUndo
 }
 
 loadIconCache(iconCacheDir){

@@ -14,11 +14,17 @@ Plugin=HideTaskbar
 BarInstance=Both
 DynamicVariables=1
 
+[TaskbarRehider]
+UpdateDivider=100
+DynamicVariables=1
+Measure=calc
+OnUpdateAction=[!CommandMeasure MeasureTaskbar "Hide"]
+
 [MeasureRunTaskbar]
 UpdateDivider=-1
 DynamicVariables=1
 Measure=calc
-OnUpdateAction=[!CommandMeasure MeasureTaskbar "Hide"][!CommandMeasure MeasureTaskbar "AutoHide"][#@#\Taskbar\Taskbar.exe #@#\Taskbar\Taskbar.ahk "#CURRENTCONFIGWIDTH#" "#CURRENTCONFIGHEIGHT#"]
+OnUpdateAction=[#@#\Taskbar\Taskbar.exe #@#\Taskbar\Taskbar.ahk "#CURRENTCONFIGWIDTH#" "#CURRENTCONFIGHEIGHT#"][!Delay 1000][!CommandMeasure MeasureTaskbar "Hide"][!CommandMeasure MeasureTaskbar "AutoHide"]
 
 [MeasureTaskbarSize]
 DynamicVariables=1
@@ -33,7 +39,7 @@ OnChangeAction=[!CommandMeasure MeasureWindowMessage "SendMessage 16668 #CURRENT
 Measure=String
 Substitute="":"NULL"
 IfMatch = "NULL"
-IfNotMatchAction=[!ShowMeterGroup Task1Group]
+IfNotMatchAction=[!ShowMeterGroup Task1Group][!SetOption SysInfoDock RightMouseUpAction [SysInfoDock:RightMouseUpAction] beep test]
 IfMatchAction=[!HideMeterGroup Task1Group]
 Group=measuretask1group
 
